@@ -27,14 +27,26 @@
               "src/assets"
             ],
             "styles": [
-				"~font-awesome/scss/font-awesome.scss",
-    				"~angular-bootstrap-md/scss/bootstrap/bootstrap.scss",
-    				"~angular-bootstrap-md/scss/mdb-free.scss",
-              "src/styles.scss"
+			        {
+                "input": "~font-awesome/scss/font-awesome.scss"
+              },
+              {
+                "input": "~angular-bootstrap-md/scss/bootstrap/bootstrap.scss"
+              },
+              {
+                "input": "~angular-bootstrap-md/scss/mdb-free.scss"
+              },
+              {
+                "input": "src/styles.scss"
+              }
             ],
             "scripts": [
-			"~chart.js/dist/Chart.js",
-  			"~hammerjs/hammer.min.js"
+			        {
+                "input": "~chart.js/dist/Chart.js"
+              },
+              {
+                "input": "~hammerjs/hammer.min.js"
+              }
 					
 			]
           },
